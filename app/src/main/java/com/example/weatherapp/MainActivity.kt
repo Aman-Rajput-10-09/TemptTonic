@@ -82,14 +82,10 @@ class MainActivity : AppCompatActivity() {
                     val sunset = responseBody.sys.sunset.toLong()
                     val seaLevel = responseBody.main.pressure
                     val condition = responseBody.weather.firstOrNull()?.main ?: "unknown"
-                    val maxtemp = responseBody.main.temp_max
-                    val mintemp = responseBody.main.temp_min
 
                     // Update UI with weather data
                     binding.tempt.text = "$temperaturep °C"
                     binding.weather.text = condition
-                    binding.maxTempt.text = "Max Temp: $maxtemp °C"
-                    binding.minTempt.text = "Min Temp: $mintemp °C"
                     binding.humidity.text = "$humidity %"
                     binding.windSpeed.text = "$windSpeed m/s"
                     binding.sunrise.text = "${time(sunrise)}"
