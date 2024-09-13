@@ -1,9 +1,6 @@
 # TemptTonic
 
-TemptTonic is a sleek Android weather app built with Kotlin and Retrofit, using the OpenWeatherMap API to provide real-time weather updates. It displays temperature, humidity, wind speed, and weather conditions with dynamic animations and background changes that reflect the current weather.
-
-## Screenshots
-(Add screenshots of your app here to showcase the UI and features.)
+TemptTonic is a sleek Android weather app built with Kotlin and Retrofit, using the OpenWeatherMap API to provide real-time weather updates.
 
 ## Features
 - Real-time weather updates for any city.
@@ -11,13 +8,6 @@ TemptTonic is a sleek Android weather app built with Kotlin and Retrofit, using 
 - Shows humidity, wind speed, sunrise, and sunset times.
 - Dynamic animations and backgrounds that change with weather conditions.
 - Simple search functionality to find weather information by city.
-
-## Technologies Used
-- **Kotlin**: Programming language for Android development.
-- **Retrofit**: For making API requests.
-- **OpenWeatherMap API**: To fetch weather data.
-- **Gson**: For JSON parsing.
-- **Lottie**: For weather animations.
 
 ## Installation
 1. Clone the repository:
@@ -38,6 +28,9 @@ TemptTonic is a sleek Android weather app built with Kotlin and Retrofit, using 
 - Open the app and view the weather for a default city.
 - Use the search bar to find weather information for different cities.
 
+## Screenshots
+- See [screenshots](screenshots/README.md) for UI previews.
+
 ## API Key Configuration
 To use the app, you need an API key from OpenWeatherMap. Replace `"YOUR_API_KEY"` in the `fetchWeatherData` method with your own API key.
 
@@ -48,4 +41,4 @@ Contributions are welcome! Please open an issue or submit a pull request with an
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-For questions or feedback, feel free to reach out at [your.email@example.com](mailto:your.email@example.com).
+For questions or feedback, feel free to reach out at [amananand0019@gmail.com](mailto:amananand0019@gmail.com).
