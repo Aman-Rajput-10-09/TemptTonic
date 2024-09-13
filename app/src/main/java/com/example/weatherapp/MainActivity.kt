@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(p0: Call<WeatherApp>, p1: Throwable) {
-                TODO("Not yet implemented")
+
             }
 
         })
