@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             .baseUrl("https://api.openweathermap.org/data/2.5/") // Base URL for the weather API
             .build().create(ApiInterface::class.java) // Create API interface instance
 
-        val response = retrofit.getWeatherData(cityName, "18226018d16dbcfd43d19e161e44611c", "metric")
+        val response = retrofit.getWeatherData(cityName, "Your_Weather_API_Key", "metric")
         response.enqueue(object : Callback<WeatherApp> {
             override fun onResponse(call: Call<WeatherApp>, response: Response<WeatherApp>) {
                 val responseBody = response.body()
