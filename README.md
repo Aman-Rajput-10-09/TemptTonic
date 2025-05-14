@@ -4,7 +4,7 @@ TemptTonic is a sleek Android weather app built with Kotlin and Retrofit, using 
 
 ## Features
 - Real-time weather updates for any city.
-- Displays current, maximum, and minimum temperatures.
+- Displays current temperatures.
 - Shows humidity, wind speed, sunrise, and sunset times.
 - Dynamic animations and backgrounds that change with weather conditions.
 - Simple search functionality to find weather information by city.
